@@ -1,3 +1,10 @@
 body {
-    background: blue;
+    background: #FF69B4;
+    font-family: "Trebuchet MS" ;
+    font-size: medium;
   }
+
+h1 {
+  font-family: "Brush Script MT";
+  font-size: xx-large;
+}

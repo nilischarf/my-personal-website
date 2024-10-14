@@ -8,4 +8,16 @@
     <h1>Nili Scharf</h1>
     <p>Hi, my name is Nili Scharf. I am 22 years old, and I'm from New Jersey. I graduated college in May, and I am looking forward to further developing my software engineering skills through Flatiron!</p>
   </body>
+  <script>
+    document.body.addEventListener('keyup', function() {
+      let image = document.createElement('img');
+      image.src = 'https://savageventures.b-cdn.net/wp-content/uploads/2023/06/locals-guide-to-new-jersey1.jpg';
+      image.alt='New Jersey Pic';
+      image.id="njImage";
+      document.body.appendChild(image);
+      image.style.display = "block";
+    })
+  </script>
 </html>
+
+
